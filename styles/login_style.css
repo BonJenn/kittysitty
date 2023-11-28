@@ -1,3 +1,8 @@
+:root {
+    --color-secondary: #088178;
+}
+
+
 /* Header Start */
 
 #header {
@@ -66,10 +71,6 @@ body {
     font-family: 'Poppins', Arial, sans-serif;
 }
 
-.page {
-    display: flex;
-    flex-direction: row;
-}
 
 .login-area {
     display: flex;
@@ -120,9 +121,37 @@ input[type="submit"] {
     margin: 0 auto;
 }
 
-/* Left Side */
+/* Footer */
 
-.polygon {
-    background-color: #4CAF50;
-    clip-path: polygon(0 0, 41% 0, 75% 100%, 0% 100%);
+#footer {
+    background-color: var(--color-secondary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
 }
+
+#footer .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* adjust as needed */
+}
+
+#footer button {
+    color: #1a1a1a;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#footer button:hover {
+    background-color: #c1c4d0; /* darker on hover */
+}
+
