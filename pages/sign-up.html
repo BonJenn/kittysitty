@@ -1,41 +1,50 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <link rel="stylesheet" type="text/css" href="../styles/sign-up-style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../styles/sign-up-style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
 
-    <section id="header">
-        <a href="#"><img src="../img/kitty_sitty_logo.png" class="logo"> </a>
-    
-        <div>
-            <ul id="navbar">
-                <li><a class="active" href="../index.html">Home</a></li>
-                <li><a href="../pages/login.html">Login</a></li>
-                <li><a href="../pages/sign-up.html">Sign Up</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="cart.html"></a><i class="far fa-shopping-bag"></i></a></li>
-            </ul>
+        <section id="header">
+            <a href="#"><img src="../img/kitty_sitty_logo.png" class="logo"> </a>
+        
+            <div>
+                <ul id="navbar">
+                    <li><a class="active" href="../index.html">Home</a></li>
+                    <li><a href="../pages/login.html">Login</a></li>
+                    <li><a href="../pages/sign-up.html">Sign Up</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="cart.html"></a><i class="far fa-shopping-bag"></i></a></li>
+                </ul>
+            </div>
+        
+        </section>
+
+
+        <div class="sign-up-area">
+            <img src="../img/kitty_sitty_logo.png" class="logo">
+            
+                <form action="/submit_signup" method="post">
+                    <label for="fname">First Name:</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="lname">Last Name:</label><br>
+                    <input type="text" id="lname" name="lname"><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="password">Password:</label><br>
+                    <input type="password" id="password" name="password"><br>
+                    <input type="submit" value="Submit">
+                </form>
+            
         </div>
-    
-    </section>
 
-    <div class="sign-up-area">
-        <img src="../img/kitty_sitty_logo.png" class="logo">
+        <script type="module" src="../script.js"></script>
 
-        <form action="/submit_signup" method="post">
-            <label for="fname">First Name:</label><br>
-            <input type="text" id="fname" name="fname"><br>
-            <label for="lname">Last Name:</label><br>
-            <input type="text" id="lname" name="lname"><br>
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email"><br>
-            <label for="password">Password:</label><br>
-            <input type="password" id="password" name="password"><br>
-            <input type="submit" value="Submit">
-        </form>
-    </div>
-</body>
+            
+    </body>
+
 </html>
+
+
