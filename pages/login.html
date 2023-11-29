@@ -13,7 +13,7 @@
         
         <div>
             <ul id="navbar">
-                <li><a class="active" href="index.html">Home</a></li>
+                <li><a class="active" href="../index.html">Home</a></li>
                 <li><a href="/pages/login.html">Login</a></li>
                 <li><a href="/pages/sign-up.html">Sign Up</a></li>
                 <li><a href="/pages/about.html">About Us</a></li>
@@ -23,18 +23,30 @@
         </div>
     </section>
 
-    <div class="login-area">
-        <img src="../img/kitty_sitty_logo.png" class="logo">
+    <div class="center-page">
 
-        <form action="/login" method="post" class="login_box">
-            <label for="username">Username:</label><br>
-            <input type="text" id="username" name="username"><br>
-            <label for="password">Password:</label><br>
-            <input type="password" id="password" name="password"><br>
-            <input type="submit" value="Login">
-        </form>
+        <div class="log-in-image">
+            <img src="../img/log-in-cat.png">
+        </div>
+
+        <div class="login-area">
+      
+
+            <form action="/login" method="post" class="login_box">
+                <label for="username"></label><br>
+                <input type="text" id="username" name="username" placeholder="Username"><br>
+                <label for="password"></label><br>
+                <input type="password" id="password" name="password" placeholder="Password"><br>
+                <input type="submit" value="Login">
+            </form>
+        </div>
+    
+
 
     </div>
+
+    
+    <script type="module" src="../script.js"></script>
     </body>
 
 
