@@ -1,13 +1,13 @@
+:root {
+    --color-main: #E3E6F3; 
+    --color-secondary: #088178;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'DM Serif Display', 'Poppins', sans-serif;
-}
-
-:root {
-    --color-main: #E3E6F3; 
-    --color-secondary: #088178;
 }
 
 
@@ -72,7 +72,35 @@
     bottom: -4px;
     left: 20px;
 }
-/* Footer */
+
+/* Hero 1 */
+
+.hero1 {
+   
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.about-us-title {
+    font-size: 150px;
+}
+
+.about-us-title span {
+    color: var(--color-secondary);
+}
+
+ p {
+    font-family: 'Poppins';
+    font-size: 20px;
+    text-align: center;
+    margin: 30px;
+}
+
+/* Footer */ 
 
 
 footer {
