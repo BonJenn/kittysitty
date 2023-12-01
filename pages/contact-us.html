@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Form</title>
+    <link rel="stylesheet" type="text/css" href="../styles/contact-us_style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        
+        <section id="header">
+            <a href="../index.html"><img src="../img/kitty_sitty_logo.png" class="logo"> </a>
+
+        
+            <div>
+                <ul id="navbar">
+                    <li><a class="active" href="../index.html">Home</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="sign-up.html">Sign Up</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="cart.html"></a><i class="far fa-shopping-bag"></i></a></li>
+                </ul>
+            </div>
+
+        </section>
+
+
+        <div class="main-body">
+
+            <div class="contact-form-box">
+
+                <h1>Contact Us</h1>
+             
+                <form id="contact-form">
+                    
+                    <div class="buttons">
+                        <button id="cat-parent">Cat Parent</button>
+                        <button id="cat-sitter">Cat Sitter</button>
+                    </div>
+
+
+                    </div>
+
+                    <input type="text" id="full-name" name="full-name" placeholder="Full Name">
+                    <input type="email" id="email" name="email" placeholder="Email">
+                    
+                    <select id="dropdown-cat-parent" style="display: none;">
+                        <option value="logging">Logging into my account</option>
+                        <option value="updating">Updating my account</option>
+                        <option value="making">Making a reservation</option>
+                        <option value="modifying">Modifying a reservation</option>
+                        <option value="canceling">Canceling a reservation</option>
+                        <option value="setting">Setting up a meet and greet</option>
+                        <option value="contacting">Contacting my sitter</option>
+                        <option value="reviewing">Reviewing my transactions</option>
+                        <option value="leaving">Leaving a review</option>
+                    </select>
+                    
+                    <select id="dropdown-cat-sitter" style="display: none;">
+                        <option value="becoming">Becoming a sitter</option>
+                        <option value="submission">My sitter listing submission</option>
+                        <option value="updating">Updating my sitter listing</option>
+                        <option value="meet">Meet and greets</option>
+                        <option value="editing">Editing a reservation</option>
+                        <option value="canceling">Canceling a reservation</option>
+                        <option value="issues">Issues with client</option>
+                        <option value="earnings">Earnings</option>
+                        <option value="leaving">Leaving a review</option>
+                    </select>
+                    
+                    <textarea id="message" name="message" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+    
+
+            </div>
+          
+        </div>
+
+
+
+        <script src="../contact-us.js"></script>
+    </body>
+
+</html>
